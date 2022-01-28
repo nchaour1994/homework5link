@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="selenuimProjects.AppTest">
+        <methods>
+          <include name="closeTest"/>
+          <include name="test04"/>
+          <include name="test02"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- selenuimProjects.AppTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

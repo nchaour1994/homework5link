@@ -1,0 +1,246 @@
+body {
+  background-image: url(images/cover.jpg);
+  background-size: cover;
+}
+p{
+
+}
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  padding-top: 20px
+}
+nav p{
+  font-family:monospace;
+  color: #1e1e1e;
+  font-size: 40px;
+  float: left;
+  line-height:10px;
+  padding: 0 20px;
+
+}
+nav p a{
+  text-decoration: none;
+
+}
+nav ul{
+   margin: 0;
+   padding: 0;
+   margin-left: 60px;
+}
+nav ul li {
+     list-style: none;
+     display: inline-block;
+     float: left;
+     line-height: 100px;
+     position: relative;
+
+
+}
+nav ul li a {
+  text-decoration: none;
+  display: block;
+
+  font-family: arial;
+  font-size: 14px;
+  color: #1e1e1e;
+  padding: 0 20px;
+
+}
+nav ul li ul {
+  margin: 0;
+  padding: 0px;
+  display: none;
+  position: absolute;
+  background-color: #ffff;
+    border-radius: 0px 0px 4px 4px;
+
+}
+nav ul li:hover ul {
+  display: block;
+}
+nav ul li ul li {
+  width: 180px;
+  height: 70px;
+  padding: 1px;
+  border-radius: 4px;
+
+}
+nav ul li ul li a  {
+
+  padding: px 0px;
+
+
+}
+nav ul li ul li a:hover  {
+
+  background-color: #f3f3f3;
+
+
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding:30px;
+
+
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+  text-decoration: none;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+.myclass{
+  margin-left: 90px;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+section{
+  float: left;
+  width: 70%;
+  margin-bottom: 20px;
+
+}
+aside{
+  float: right;
+  width: 25%;
+}
+footer{
+  clear: both;
+  text-align: center;
+  padding :50px 0px;
+  background-color:#D2F3EC;
+}
+
+.div1{
+display: inline-block;
+
+
+}
+.div2{
+
+display: inline-block;
+
+}
+.main  {
+  height: 300px;
+  width: 1600px;
+
+  margin-top: 0;
+  display: inline-block;
+  float: left;
+  clear: both;
+}
+.left{
+  height: 270px;
+  width: 400px;
+  background-color:#2cbcbc;
+   display: inline-block;
+   margin-right: 100px;
+    opacity: 0.9;
+  
+}
+.center{
+   height: 270px;
+  width: 400px;
+  background-color: #21aac4;
+   display: inline-block;
+    margin-right: 100px;
+      opacity: 0.8;
+
+}
+.right{
+   height: 270px;
+  width: 500px;
+  background-color:#2f89fc;
+   display: inline-block;
+     opacity: 0.7;
+
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  .button1 {
+    background-color: #4CAF50;
+  } 
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
